@@ -2,13 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, child, get, onValue, update, set } from "firebase/database";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDNz_AHOvsFdOclDk-a6I2tTVroNQXt_yI",
-    authDomain: "cyberjardim.firebaseapp.com",
-    databaseURL: "https://cyberjardim-default-rtdb.firebaseio.com",
-    projectId: "cyberjardim",
-    storageBucket: "cyberjardim.appspot.com",
-    messagingSenderId: "624128667864",
-    appId: "1:624128667864:web:cbfa315f2dd515e43fe7ad"
+    //TODO: insert firebase config data
 };
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
